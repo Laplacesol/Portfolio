@@ -11,20 +11,40 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,900" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-       <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 
     <!--CSS-->
     <link href ="./resources/portfolio.css" type="text/css"  rel="stylesheet">
     
     <!--JS-->
-          <script src="resources/scroll.js"></script>
+          <script src="./resources/scroll.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script src="./resources/script.js"></script>
+
+
+         
 
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+          <li class="dropdown" style="font-family: 'Playfair Display', Georgia, serif">>
+            <a href="#">Portfolio <i class="fa fa-angle-down"></i></a>
+            <ul class="dropdown-menu" style="padding-top: 10px;">
+              <li><a href="#dashboard">Clinical Dashboard</a></li>
+              <li><a href="#machinelearning">Machine Learning</a></li>
+              <li><a href="#mathematica">Mathematica</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
 <!-- Site Header -->
 <section role="region" class="photo-hero">
     <!-- <header role="banner" aria-label="site navigation" class="header">
-        <!-- Site Navigation -->
+        <-- Site Navigation -->
        <!--  <nav role="navigation" class="site-navigation">
            <ul class="site-header-left">
                 <li>
@@ -45,12 +65,13 @@
     <!--</header> -->
     <div class="container">
         <div class="photo-hero-text">
-            <h1>Tufan</br><span>Gebeceliogl&#252;</span></h1>
+            <h1 style="
+            padding-left: 50px;">Tufan</br><span>Gebeceliogl&#252;</span></h1>
             <div class="image-box">
              <img src ="./resources/ProfilePhoto_TG.jpg">
             </div>
             <p>Technologist!</p>
-           <span><a href="resources/TG_Resume.pdf" target="_blank" class="button button-primary">Resume</a></span>
+           <span><a href="resources/TufanGebecelioglu_Resume.pdf" target="_blank" class="button button-primary">Resume</a></span>
            <span><a href="https://github.com/Leanhogfutures" target="_blank" class="button button-primary">GitHub</a></span>
            <span><a href="https://www.linkedin.com/in/tufan-gebecelioglu" target="_blank" class="button button-primary">LinkedIn</a></span>
         </div>
@@ -60,8 +81,76 @@
 
 
 <!-- Main Content Benefits -->
-
-<section role="region" class="main-content-benefits">
+<section role="region" class="main-content-benefits" style="background-color: #A0A8A6" id="dashboard">
+    <div class="container">
+        <h2 style="text-align: center">Interactive Clinical Dashboard</h2> <br>
+        <ul class="clearfix">
+            <li class="item-shinyapp">
+                <div class="item-image-shinyapp">
+                   <iframe width='1490' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> 
+                </div>
+                <h2></h2> 
+                <p style = "color: #333333" >Our hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care.</p>
+            </li>
+            <!--
+            <li class="item">
+                <div class="item-image">
+                  <iframe width='480' height='480' src='https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb' frameborder='0'></iframe>                                                                                                                           
+                </div>
+                <h2>Item 2</h2>
+                <p>insert description</p>
+            </li>
+            <li class="item">
+                <div class="item-image">
+                       <iframe width='480' height='480' src='https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb' frameborder='0'></iframe>     
+                  </div>
+                <h2>Item 3</h2>
+                <p>insert description </p>
+            </li>
+            --> 
+        </ul>
+    </div>
+</section>
+<section role="region" class="main-content-benefits" style =" background-color: #888888" id="machinelearning">
+    <div class="container">
+        <h2 style="text-align: center">Machine Learning</h2> <br>
+        <ul class="clearfix">
+            <li class="item">
+                <div class="item-image" style="background-color: #333333">
+                    <code># Load and preprocess the dataset
+                        url = "https://raw.githubusercontent.com/jbrownlee/Data</code></br><code>/master/pima-indians-diabetes.data.csv"
+                        columns = ["Pregnancies", "Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age", "Outcome"]
+                        data = pd.read_csv(url, names=columns)
+                        
+                        # Prepare the data for training
+                        X = data.drop("Outcome", axis=1)
+                        y = data["Outcome"]
+                        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)</code>
+                  <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
+                </div>
+                <h2> </h2> 
+                <p>This code uses logistic regression, a statistical model, to predict the presence of diabetes based on a set of features. The features are scaled and the model is trained and evaluated using accuracy, confusion matrix, and classification report. The model has a success rate of 74%.</p>
+            </li>
+            <li class="item">
+                <div class="item-image" style="background-color: #333333">
+                    <img src= "./resources/pythondata.png">
+                  <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
+                </div>
+             <!-- <h2> </h2> 
+               <p></p>  -->
+            </li>
+            <li class="item">
+                <div class="item-image" style="background-color: #333333">
+                    <img src= "./resources/python1.jpg">
+                  <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
+                </div>
+                <!-- <h2> </h2> 
+               <p></p>  -->
+            </li>
+        </ul>
+    </div>
+</section>
+<section role="region" class="main-content-benefits" style="background-color: #A0A8A6" id="mathematica">
     <div class="container">
         <h2 style="text-align: center">Mathematical Modeling</h2> <br>
         <ul class="clearfix">
@@ -90,13 +179,14 @@
         </ul>
     </div>
 </section>
-<section role="region" class="main-content-benefits" style="background-color: #A0A8A6">
+<!-- Don't need this 
+<section role="region" class="main-content-benefits">
     <div class="container">
         <h2 style="text-align: center">UI/UX</h2> <br>
         <ul class="clearfix">
             <li class="item">
                 <div class="item-image">
-                     <p class="codepen" data-height="490" data-theme-id="light" data-default-tab="result" data-slug-hash="JjyMBJX" data-user="leanhogfutures" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                     <p class="codepen" data-height="480" data-width="480" data-theme-id="light" data-default-tab="result" data-slug-hash="JjyMBJX" data-user="leanhogfutures" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                          <span>See the Pen <a href="https://codepen.io/leanhogfutures/pen/JjyMBJX">
                         FortuneCookie</a> by Leanhogfutures (<a href="https://codepen.io/leanhogfutures">@leanhogfutures</a>)
                  on <a href="https://codepen.io">CodePen</a>.</span>
@@ -138,6 +228,7 @@
         </ul>
     </div>
 </section>
+-->
 
 </body>
 </html>
