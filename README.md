@@ -33,7 +33,7 @@ This code uses logistic regression, a statistical model, to predict the presence
 
 ## Mathematica Visualizations
 
-In this section, showcase your Mathematica Visualizations project. Include a brief description of the project, the purpose of the visualizations, the technologies and libraries used, and any relevant screenshots or code snippets.
+These visualizations showcase 3-projects . The first is a 3D renderd cube that can be moved in any direction. The second is a Pendulum that predicts movement on a mass frictionless surface. The thid is an equi-potential curve for constant electric current. All models were created with Mathematica and LaTex.  Interactive versions are accessible on Mathematica Online Notebook [here](https://www.wolframcloud.com/obj/tg021/Published/CubeRender.nb), [here](https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb), and [here](https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb). 
 
 ![](images/Mathematica.png)
 
