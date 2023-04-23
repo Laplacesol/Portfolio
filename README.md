@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 A professional portfolio to showcase your work, skills, and achievements. This portfolio serves as a way to demonstrate your data in a way that GitHub cannot.
 
