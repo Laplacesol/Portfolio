@@ -46,4 +46,4 @@ Contributions are always welcome! If you have any suggestions, feature requests,
 - Email: your_email@domain.com
 - GitHub: [@laplacesol](https://github.com/laplacesol)
 - LinkedIn: [@your_linkedin_username](https://www.linkedin.com/in/your_linkedin_username/)
-- Personal website: [your_website.com](https://laplacesol.github.io/portfolio/)
+- Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/portfolio/)
