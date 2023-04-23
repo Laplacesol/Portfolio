@@ -15,7 +15,7 @@ A professional portfolio to showcase your work, skills, and achievements. This p
 
 ## Clinical Dashboard
 
-This hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care.
+This hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care. An interactive version is avalable on [shinyapp](https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953). 
 
 ![](images/ClinicalDashboard.png)
 
