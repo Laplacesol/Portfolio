@@ -20,10 +20,6 @@
   <script src="./resources/scroll.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./resources/scripts.js"></script>
-
-
-
-
 </head>
 <body>
 
@@ -35,37 +31,21 @@
     <ul class="clearfix">
       <li class="item-shinyapp">
         <div class="item-image-shinyapp">
-          <iframe width='1490' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' ></iframe>
+          <iframe width='1490' height='490' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' ></iframe>
         </div>
         <h2></h2>
         <p style = "color: #333333" >Our hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care.</p>
       </li>
-      <!--
-      <li class="item">
-          <div class="item-image">
-            <iframe width='480' height='480' src='https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb' frameborder='0'></iframe>
-          </div>
-          <h2>Item 2</h2>
-          <p>insert description</p>
-      </li>
-      <li class="item">
-          <div class="item-image">
-                 <iframe width='480' height='480' src='https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb' frameborder='0'></iframe>
-            </div>
-          <h2>Item 3</h2>
-          <p>insert description </p>
-      </li>
-      -->
     </ul>
   </div>
 </section>
-<section role="region" class="main-content-benefits" style="background-color: #A0A8A6" id="adtgenerator">
+<section role="region" class="main-content-benefits" style="background-color: #888888" id="adtgenerator">
   <div class="container">
     <h2 style="text-align: center">Random ADT Generator</h2> <br>
     <ul class="clearfix">
       <li class="item-shinyapp">
         <div class="item-image-shinyapp">
-
+          <img src="./resources/ADTGen.jpg" alt="" width="1280">
         </div>
         <h2></h2>
         <p style = "color: #333333" >Our hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care.</p>
@@ -73,22 +53,35 @@
     </ul>
   </div>
 </section>
-<section role="region" class="main-content-benefits" style =" background-color: #888888" id="machinelearning">
+<section role="region" class="main-content-benefits" style =" background-color: #A0A8A6" id="machinelearning">
   <div class="container">
     <h2 style="text-align: center">Machine Learning</h2> <br>
     <ul class="clearfix">
       <li class="item">
         <div class="item-image" style="background-color: #333333">
-          <code># Load and preprocess the dataset
-            url = "https://raw.githubusercontent.com/jbrownlee/Data</code></br><code>/master/pima-indians-diabetes.data.csv"
-          columns = ["Pregnancies", "Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age", "Outcome"]
-          data = pd.read_csv(url, names=columns)
+          <label>
+<textarea readonly style="resize: none; border-radius: 10px;" rows="23" cols="10">
+  # Load and preprocess the dataset
 
-          # Prepare the data for training
-          X = data.drop("Outcome", axis=1)
-          y = data["Outcome"]
-          X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)</code>
-          <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
+  url ="https://raw.githubusercontent.com/
+  jbrownlee/Data/master/pima-indians-
+  diabetes.data.csv"
+
+  columns = ["Pregnancies", "Glucose",
+  "BloodPressure", "SkinThickness",
+  "Insulin", "BMI", "DiabetesPedigreeFunction",
+  "Age", "Outcome"]
+  data = pd.read_csv(url, names=columns)
+
+  # Prepare the data for training
+  X = data.drop("Outcome", axis=1)
+  y = data["Outcome"]
+  X_train, X_test, y_train,
+  y_test = train_test_split(X, y,
+  test_size=0.3, random_state=42)
+</textarea>
+          </label>
+
         </div>
         <h2> </h2>
         <p>This code uses logistic regression, a statistical model, to predict the presence of diabetes based on a set of features. The features are scaled and the model is trained and evaluated using accuracy, confusion matrix, and classification report. The model has a success rate of 74%.</p>
@@ -110,7 +103,7 @@
     </ul>
   </div>
 </section>
-<section role="region" class="main-content-benefits" style="background-color: #A0A8A6" id="mathematica">
+<section role="region" class="main-content-benefits" style="background-color: #888888" id="mathematica">
   <div class="container">
     <h2 style="text-align: center">Mathematical Modeling</h2> <br>
     <ul class="clearfix">
@@ -139,56 +132,5 @@
     </ul>
   </div>
 </section>
-<!-- Don't need this
-<section role="region" class="main-content-benefits">
-    <div class="container">
-        <h2 style="text-align: center">UI/UX</h2> <br>
-        <ul class="clearfix">
-            <li class="item">
-                <div class="item-image">
-                     <p class="codepen" data-height="480" data-width="480" data-theme-id="light" data-default-tab="result" data-slug-hash="JjyMBJX" data-user="leanhogfutures" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                         <span>See the Pen <a href="https://codepen.io/leanhogfutures/pen/JjyMBJX">
-                        FortuneCookie</a> by Leanhogfutures (<a href="https://codepen.io/leanhogfutures">@leanhogfutures</a>)
-                 on <a href="https://codepen.io">CodePen</a>.</span>
-                        </p>
-                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-                </div>
-                <h2>Fortune Cookie</h2>
-                <p style="color:#F5F9FF">Click to reveal a fortune. <br>
-                Created using HTML, CSS, and Javascript.</p>
-            </li>
-            <li class="item">
-                <div class="item-image">
-               <iframe height="490" style="width: 100%;" scrolling="no" title="Matrix Effect" src="https://codepen.io/leanhogfutures/embed/mdMpGLo?default-tab=&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-            See the Pen <a href="https://codepen.io/leanhogfutures/pen/mdMpGLo">
-             Matrix Effect</a> by Leanhogfutures (<a href="https://codepen.io/leanhogfutures">@leanhogfutures</a>)
-            on <a href="https://codepen.io">CodePen</a>.
-            </iframe>
-
-                </div>
-                <h2>Matrix Effect</h2>
-                <p style="color:#F5F9FF">Configurable character set, color, and fps. <br>
-                Created using HTML, CSS, and Javascript.</p>
-            </li>
-            <li class="item">
-                <div class="item-image">
-                    <p class="codepen" data-height="490" data-theme-id="light" data-default-tab="result" data-slug-hash="abyEjmz" data-user="leanhogfutures" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/leanhogfutures/pen/abyEjmz">
-                            Spirograph</a> by Leanhogfutures (<a href="https://codepen.io/leanhogfutures">@leanhogfutures</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-                </div>
-
-                <h2>Lissajous Curve</h2>
-                <p style="color:#F5F9FF">Also known as a Sprirograph, or Bowditch curve. <br>
-                Created using HTML, CSS, and Javascript.</p>
-            </li>
-        </ul>
-    </div>
-</section>
--->
-
 </body>
 </html>
