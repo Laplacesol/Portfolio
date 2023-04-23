@@ -25,7 +25,7 @@ In this section, showcase your Random ADT Generator project. Include a brief des
 
 ## Machine Learning
 
-In this section, showcase your Machine Learning project. Include a brief description of the project, the problem it solves, the approach you took, the technologies and libraries used, and any relevant code snippets or examples.
+This code uses logistic regression, a statistical model, to predict the presence of diabetes based on a set of features. The features are scaled and the model is trained and evaluated using accuracy, confusion matrix, and classification report. The model has a success rate of 74%.
 
 ![](images/MachineLearning.png)
 
@@ -44,6 +44,6 @@ Contributions are always welcome! If you have any suggestions, feature requests,
 ## Contact
 
 - Email: your_email@domain.com
-- GitHub: [@your_username](https://github.com/your_username)
+- GitHub: [@laplacesol](https://github.com/laplacesol)
 - LinkedIn: [@your_linkedin_username](https://www.linkedin.com/in/your_linkedin_username/)
-- Personal website: [your_website.com](https://www.your_website.com)
+- Personal website: [your_website.com](https://laplacesol.github.io/portfolio/)
