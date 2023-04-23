@@ -1,22 +1,53 @@
-/* Site Stylesheet
-  1. Global Styles
-  2. Typography Styles
-  3. Structure Styles
-  4. Module Styles
-  5. Component Styles
-  6. Page Styles
+.grid-container {
+    display: grid;
+    /*grid-template-columns: 10% auto 10%;*/
+    background-color: #888;
+    padding: 2px;
+    margin: 90px;
+    border-radius: 10px;
+}
+.grid-item {
+    background-color: #1a1a1a;
+   /* border: 1px solid rgba(0, 0,0 ,0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif,Georgia,serif;
+    font-size: 45px;
+    color: #888;
+}
+h2 {
+    text-align: left;
+    font-family: apple-system,"system-ui",sans-serif, Georgia, serif;
+    font-size: 24px;
+    /*margin: 24  0 16px;*/
+    padding: 0 0 7px;
+    color: #888;
+}
+p {
+    text-align: center;
+    font-family: -apple-system,"system-ui",sans-serif,Georgia,serif;
+    font-size: 16px;
+    margin: 0 0 16px;
+    color: #888;
+}
+body{
+    background-color: #1a1a1a;
+}
+.item .item-image {
 
-Color profile :
-#F5F9FF
-#EDAA8E
-#888888
-#A0A8A6
-#AEBAA8
-======================================== */
+    background: #FFFFFF;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    margin-left: 20px;
 
-
-/* 1. Global Styles
-======================================== */
+}
+/*-------------------*/
 * {
     box-sizing: border-box;
 }
@@ -53,7 +84,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Playfair Display', Georgia, serif;
+
+
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 15px;
@@ -79,20 +111,8 @@ h2 {
     }
 }
 @media(min-width: 1024px) {
-    h1 {
-        font-size: 100px;
-    }
-    h2 {
-        font-size: 60px;
-    }
-}
-p {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0 0 20px;
-    padding-left: 50px;
-    color: #333333;
+
+
 }
 a {
     font-family: 'Playfair Display', Georgia, serif;
@@ -374,15 +394,7 @@ textarea {
     padding: 0 2%;
     text-align: center;
 }
-.item .item-image {
 
-    background: #FFFFFF;
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
-    border-radius: 10px;
-    width: 500px;
-    height: 500px;
-
-}
 .item .item-image-shinyapp {
 
     background: #FFFFFF;

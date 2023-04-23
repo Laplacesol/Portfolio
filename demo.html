@@ -20,11 +20,29 @@
   <script src="./resources/scroll.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./resources/scripts.js"></script>
+
 </head>
 <body>
 
+<section role="region" class="photo-hero" style=" background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-image: url(./images/acropolis.jpeg)"  >
+  <a id="button"></a>
+  <!--</header> -->
+  <div class="container">
 
-<!-- Main Content Benefits -->
+    <div class="photo-hero-text">
+      <h1 style="">Tufan </br>Gebecelioglu</h1>
+      <div class="image-box">
+        <img src ="./resources/ProfilePhoto_TG.jpg" alt="">
+      </div>
+      <p>IT Consultant</p>
+      <span><a href="resources/TufanGebecelioglu_Resume.pdf" target="_blank" class="button button-primary">Resume</a></span>
+      <span><a href="https://github.com/Laplacesol" target="_blank" class="button button-primary">GitHub</a></span>
+      <span><a href="https://www.linkedin.com/in/tgebece" target="_blank" class="button button-primary">LinkedIn</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content  -->
 <section role="region" class="main-content-benefits" style="background-color: #A0A8A6" id="dashboard">
   <div class="container">
     <h2 style="text-align: center">Interactive Clinical Dashboard</h2> <br>
@@ -60,28 +78,28 @@
       <li class="item">
         <div class="item-image" style="background-color: #333333">
           <label>
-<textarea readonly style="resize: none; border-radius: 10px;" rows="23" cols="10">
-  # Load and preprocess the dataset
+              <textarea readonly style="resize: none; border-radius: 10px;" rows="23" cols="10">
+                # Load and preprocess the dataset
 
-  url ="https://raw.githubusercontent.com/
-  jbrownlee/Data/master/pima-indians-
-  diabetes.data.csv"
+                url ="https://raw.githubusercontent.com/
+                jbrownlee/Data/master/pima-indians-
+                diabetes.data.csv"
 
-  columns = ["Pregnancies", "Glucose",
-  "BloodPressure", "SkinThickness",
-  "Insulin", "BMI", "DiabetesPedigreeFunction",
-  "Age", "Outcome"]
-  data = pd.read_csv(url, names=columns)
+                columns = ["Pregnancies", "Glucose",
+                "BloodPressure", "SkinThickness",
+                "Insulin", "BMI", "DiabetesPedigreeFunction",
+                "Age", "Outcome"]
+                data = pd.read_csv(url, names=columns)
 
-  # Prepare the data for training
-  X = data.drop("Outcome", axis=1)
-  y = data["Outcome"]
-  X_train, X_test, y_train,
-  y_test = train_test_split(X, y,
-  test_size=0.3, random_state=42)
-</textarea>
+                # Prepare the data for training
+                X = data.drop("Outcome", axis=1)
+                y = data["Outcome"]
+                X_train, X_test, y_train,
+                y_test = train_test_split(X, y,
+                test_size=0.3, random_state=42)
+
+              </textarea>
           </label>
-
         </div>
         <h2> </h2>
         <p>This code uses logistic regression, a statistical model, to predict the presence of diabetes based on a set of features. The features are scaled and the model is trained and evaluated using accuracy, confusion matrix, and classification report. The model has a success rate of 74%.</p>
@@ -89,13 +107,11 @@
       <li class="item">
         <div class="item-image" style="background-color: #333333">
           <img src= "./resources/pythondata.png" alt="">
-          <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
         </div>
       </li>
       <li class="item">
         <div class="item-image" style="background-color: #333333">
           <img src= "./resources/python1.jpg" alt="">
-          <!-- <iframe width='580' height='480' src='https://darthnewhopee.shinyapps.io/emergency/?_ga=2.101306498.2059886193.1680392953-163364251.1680392953' frameborder='0'></iframe> -->
         </div>
         <!-- <h2> </h2>
        <p></p>  -->
@@ -132,5 +148,7 @@
     </ul>
   </div>
 </section>
+
+
 </body>
 </html>
