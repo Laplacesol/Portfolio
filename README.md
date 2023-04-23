@@ -9,24 +9,31 @@ A professional portfolio to showcase your work, skills, and achievements. This p
 - [Machine Learning](#machine-learning)
 - [Mathematica Visualizations](#mathematica-visualizations)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Clinical Dashboard
 
-In this section, showcase your Clinical Dashboard project. Include a brief description of the project, technologies used, and screenshots or a video demo of the dashboard in action.
+This hospital resource management dashboard features three tabs providing real-time insights into hospital resources. With the capability to process live patient data, our app enables the filtering and sorting of data to optimize resource utilization and improve patient care.
+
+![](images/ClinicalDashboard.png)
 
 ## Random ADT Generator
 
 In this section, showcase your Random ADT Generator project. Include a brief description of the project, technologies used, and any relevant code snippets or examples.
 
+![](images/ADTGen.png)
+
 ## Machine Learning
 
 In this section, showcase your Machine Learning project. Include a brief description of the project, the problem it solves, the approach you took, the technologies and libraries used, and any relevant code snippets or examples.
 
+![](images/MachineLearning.png)
+
 ## Mathematica Visualizations
 
 In this section, showcase your Mathematica Visualizations project. Include a brief description of the project, the purpose of the visualizations, the technologies and libraries used, and any relevant screenshots or code snippets.
+
+![](images/Mathematica.png)
 
 ## Contributing
 
