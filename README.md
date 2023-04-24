@@ -1,5 +1,5 @@
 # Portfolio
-<img src="./images/0.png" width="60" height="60">
+
 
 
 
@@ -42,5 +42,4 @@ These visualizations showcase 3-projects . The first is a 3D renderd cube that c
 
 - Email: tufan@laplacesolutions.co
 - GitHub: [@laplacesol](https://github.com/laplacesol)
-- LinkedIn: [linkedin/in/tgebece](https://www.linkedin.com/in/tgebece/)
 - Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/portfolio/)
