@@ -1,6 +1,5 @@
-# Portfolio
+![](images/TufanProfile) # Tufan Gebecelioglu
 
-A professional portfolio to showcase your work, skills, and achievements. This portfolio serves as a way to demonstrate your data in a way that GitHub cannot.
 
 
 
@@ -10,7 +9,6 @@ A professional portfolio to showcase your work, skills, and achievements. This p
 - [Random ADT Generator](#random-adt-generator)
 - [Machine Learning](#machine-learning)
 - [Mathematica Visualizations](#mathematica-visualizations)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Clinical Dashboard
@@ -36,10 +34,6 @@ This code uses logistic regression, a statistical model, to predict the presence
 These visualizations showcase 3-projects . The first is a 3D renderd cube that can be moved in any direction. The second is a Pendulum that predicts movement on a mass frictionless surface. The thid is an equi-potential curve for constant electric current. All models were created with Mathematica and LaTex.  Interactive versions are accessible via Mathematica Online Notebook [here](https://www.wolframcloud.com/obj/tg021/Published/CubeRender.nb), [here](https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb), and [here](https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb). 
 
 ![](images/Mathematica.png)
-
-## Contributing
-
-Contributions are always welcome! If you have any suggestions, feature requests, or bug reports, please [open an issue](https://github.com/your_username/professional-portfolio/issues) or [submit a pull request](https://github.com/your_username/professional-portfolio/pulls).
 
 
 
