@@ -45,7 +45,7 @@ Contributions are always welcome! If you have any suggestions, feature requests,
 
 ## Contact
 
-- Email: your_email@domain.com
+- Email: tufan@laplacesolutions.co
 - GitHub: [@laplacesol](https://github.com/laplacesol)
-- LinkedIn: [linkedin/tgebece](https://www.linkedin.com/in/tgebece/)
+- LinkedIn: [linkedin/in/tgebece](https://www.linkedin.com/in/tgebece/)
 - Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/portfolio/)
