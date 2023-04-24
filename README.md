@@ -33,7 +33,7 @@ This code uses logistic regression, a statistical model, to predict the presence
 
 ## Mathematica Visualizations
 
-These visualizations showcase 3-projects . The first is a 3D renderd cube that can be moved in any direction. The second is a Pendulum that predicts movement on a mass frictionless surface. The thid is an equi-potential curve for constant electric current. All models were created with Mathematica and LaTex.  Interactive versions are accessible on Mathematica Online Notebook [here](https://www.wolframcloud.com/obj/tg021/Published/CubeRender.nb), [here](https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb), and [here](https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb). 
+These visualizations showcase 3-projects . The first is a 3D renderd cube that can be moved in any direction. The second is a Pendulum that predicts movement on a mass frictionless surface. The thid is an equi-potential curve for constant electric current. All models were created with Mathematica and LaTex.  Interactive versions are accessible via Mathematica Online Notebook [here](https://www.wolframcloud.com/obj/tg021/Published/CubeRender.nb), [here](https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb), and [here](https://www.wolframcloud.com/obj/tg021/Published/EquiCurv.nb). 
 
 ![](images/Mathematica.png)
 
@@ -47,5 +47,5 @@ Contributions are always welcome! If you have any suggestions, feature requests,
 
 - Email: your_email@domain.com
 - GitHub: [@laplacesol](https://github.com/laplacesol)
-- LinkedIn: [@your_linkedin_username](https://www.linkedin.com/in/your_linkedin_username/)
+- LinkedIn: [linkedin/tgebece](https://www.linkedin.com/in/tgebece/)
 - Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/portfolio/)
