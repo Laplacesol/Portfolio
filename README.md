@@ -1,9 +1,5 @@
 # Portfolio
 
-
-
-
-
 ## Table of Contents
 
 - [Clinical Dashboard](#clinical-dashboard)
@@ -20,7 +16,7 @@ This hospital resource management dashboard features three tabs providing real-t
 
 ## Random ADT Generator
 
-In this section, showcase your Random ADT Generator project. Include a brief description of the project, technologies used, and any relevant code snippets or examples.
+The Random ADT Generator creates clinical HL7v.2 transactions, eliminating concerns regarding PHI and de-identification. This script was created using Python.
 
 ![](images/ADTGen.png)
 
