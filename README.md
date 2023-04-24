@@ -1,6 +1,4 @@
-# Portfolio
-
-## Table of Contents
+# Table of Contents
 
 - [Clinical Dashboard](#clinical-dashboard)
 - [Random ADT Generator](#random-adt-generator)
