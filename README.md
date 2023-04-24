@@ -36,4 +36,4 @@ These visualizations showcase 3-projects . The first is a 3D renderd cube that c
 
 - Email: tufan@laplacesolutions.co
 - GitHub: [@laplacesol](https://github.com/laplacesol)
-- Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/portfolio/)
+- Personal website: [https://laplacesol.github.io/portfolio/](https://laplacesol.github.io/Portfolio/)
